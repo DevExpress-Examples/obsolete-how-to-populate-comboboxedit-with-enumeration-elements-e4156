@@ -1,0 +1,12 @@
+﻿<Application x:Class="ComboBoxEditEnum.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             StartupUri="MainWindow.xaml"
+             xmlns:my="clr-namespace:ComboBoxEditEnum">
+    <Application.Resources>
+        <my:MyConverter x:Key="myConverter" />
+        <DataTemplate x:Key="whithAttributeItemTemplate">
+            <TextBlock Text="{Binding Converter={StaticResource myConverter}}"/>
+        </DataTemplate>
+    </Application.Resources>
+</Application>
