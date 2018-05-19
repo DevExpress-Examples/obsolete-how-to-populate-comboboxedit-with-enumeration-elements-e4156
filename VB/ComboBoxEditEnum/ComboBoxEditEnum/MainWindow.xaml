@@ -1,0 +1,21 @@
+﻿<Window x:Class="ComboBoxEditEnum.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="349" xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors"
+        xmlns:my="clr-namespace:ComboBoxEditEnum" xmlns:dxg="http://schemas.devexpress.com/winfx/2008/xaml/grid">
+    <Grid>
+        <dxe:ComboBoxEdit HorizontalAlignment="Left" Margin="24,170,0,0" Name="comboBoxEdit1" VerticalAlignment="Top" Width="280" Height="19" IsTextEditable="False">
+            <dxe:ComboBoxEdit.StyleSettings>
+                <my:MyComboBoxStyleSettings HighlightedFontSize="{x:Null}" HighlightedFontStyle="{x:Null}" HighlightedFontWeight="{x:Null}" HighlightedTextBackground="Yellow" HighlightedTextForeground="Black" EnumType="my:Actions"/>
+            </dxe:ComboBoxEdit.StyleSettings>
+        </dxe:ComboBoxEdit>
+
+        <dxe:ComboBoxEdit Height="19" HorizontalAlignment="Left" IsTextEditable="False" Margin="24,25,0,0" Name="comboBoxEdit2" VerticalAlignment="Top" Width="276">
+            <dxe:ComboBoxEdit.StyleSettings>
+                <my:MyComboBoxStyleSettings HighlightedFontSize="{x:Null}" HighlightedFontStyle="{x:Null}" HighlightedFontWeight="{x:Null}" HighlightedTextBackground="Yellow" HighlightedTextForeground="Black" EnumType="my:TaskPriority"/>
+            </dxe:ComboBoxEdit.StyleSettings>
+        </dxe:ComboBoxEdit>
+        <Label Content="TaskPriority Enum" Height="28" HorizontalAlignment="Left" Margin="28,0,0,0" Name="label1" VerticalAlignment="Top" />
+        <Label Content="Actions Enum" Height="28" HorizontalAlignment="Left" Margin="28,141,0,0" Name="label2" VerticalAlignment="Top" />
+    </Grid>
+</Window>
