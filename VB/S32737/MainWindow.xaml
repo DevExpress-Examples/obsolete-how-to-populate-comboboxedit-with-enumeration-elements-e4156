@@ -1,0 +1,12 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="clr-namespace:S32737"
+        xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors" x:Class="S32737.MainWindow"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+
+        <dxe:ComboBoxEdit HorizontalAlignment="Center" VerticalAlignment="Center" Width="150" ItemsSource="{dxe:EnumItemsSource EnumType=local:MyEnum}"/>
+
+    </Grid>
+</Window>
