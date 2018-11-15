@@ -1,3 +1,11 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [MainWindow.xaml](./CS/ComboBoxEditEnum/MainWindow.xaml) (VB: [MainWindow.xaml.vb](./VB/ComboBoxEditEnum/MainWindow.xaml.vb))
+* [MainWindow.xaml.cs](./CS/ComboBoxEditEnum/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/ComboBoxEditEnum/MainWindow.xaml.vb))
+* [MyComboBoxStyleSettings.cs](./CS/ComboBoxEditEnum/MyComboBoxStyleSettings.cs) (VB: [MyComboBoxStyleSettings.vb](./VB/ComboBoxEditEnum/MyComboBoxStyleSettings.vb))
+* [MyConverter.cs](./CS/ComboBoxEditEnum/MyConverter.cs) (VB: [MyConverter.vb](./VB/ComboBoxEditEnum/MyConverter.vb))
+<!-- default file list end -->
 # OBSOLETE - How to populate ComboBoxEdit with enumeration elements
 
 
