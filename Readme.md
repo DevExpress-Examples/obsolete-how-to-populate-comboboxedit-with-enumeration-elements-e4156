@@ -1,3 +1,9 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [MainWindow.xaml](./CS/S32737/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/S32737/MainWindow.xaml))
+* [MainWindow.xaml.cs](./CS/S32737/MainWindow.xaml.cs) (VB: [MainWindow.xaml](./VB/S32737/MainWindow.xaml))
+<!-- default file list end -->
 # OBSOLETE - How to populate ComboBoxEdit with enumeration elements
 
 
