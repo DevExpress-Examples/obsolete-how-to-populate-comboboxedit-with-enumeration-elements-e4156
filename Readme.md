@@ -2,7 +2,7 @@
 *Files to look at*:
 
 * [App.xaml](./CS/ComboBoxEditEnum/App.xaml)
-* [MainWindow.xaml](./CS/ComboBoxEditEnum/MainWindow.xaml) (VB: [MainWindow.xaml.vb](./VB/ComboBoxEditEnum/MainWindow.xaml.vb))
+* [MainWindow.xaml](./CS/ComboBoxEditEnum/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/ComboBoxEditEnum/MainWindow.xaml))
 * [MainWindow.xaml.cs](./CS/ComboBoxEditEnum/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/ComboBoxEditEnum/MainWindow.xaml.vb))
 * [MyComboBoxStyleSettings.cs](./CS/ComboBoxEditEnum/MyComboBoxStyleSettings.cs) (VB: [MyComboBoxStyleSettings.vb](./VB/ComboBoxEditEnum/MyComboBoxStyleSettings.vb))
 * [MyConverter.cs](./CS/ComboBoxEditEnum/MyConverter.cs) (VB: [MyConverter.vb](./VB/ComboBoxEditEnum/MyConverter.vb))
