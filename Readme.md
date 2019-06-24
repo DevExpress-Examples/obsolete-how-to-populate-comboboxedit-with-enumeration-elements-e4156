@@ -8,6 +8,9 @@
 * [MyConverter.cs](./CS/ComboBoxEditEnum/MyConverter.cs) (VB: [MyConverter.vb](./VB/ComboBoxEditEnum/MyConverter.vb))
 <!-- default file list end -->
 # OBSOLETE - How to populate ComboBoxEdit with enumeration elements
+<!-- run online -->
+**[[Run Online]](https://codecentral.devexpress.com/e4156)**
+<!-- run online end -->
 
 
 <p><strong>======================</strong><br /><strong>This article is now obsolete starting from 14.2. Refer to the <a href="https://www.devexpress.com/Support/Center/p/T196946">How to: Use EnumItemsSourceBehavior</a> ticket instead.</strong><br /><strong>======================</strong><br /><br />To bind ComboBoxEdit to an enum, use the EnumItemsSource markup extention in the following manner:</p>
